@@ -43,9 +43,9 @@ var abdm = new AbdmClient(
 
 // For testing (ABDM sandbox):
 var abdm = new AbdmClient(
-    email: "ndhm-pc13@nha.gov.in",
-    password: "Nice@123",
-    baseUrl: "https://asia-south1-psychic-city-328609.cloudfunctions.net"
+    email: "xxxxxx@xxxxxx.xxx",
+    password: "xxxxxxxxxx",
+    baseUrl: "https://xxxxxx-xxxxxx-xxxxxx-xxxxxx.cloudfunctions.net"
 );
 ```
 
@@ -166,7 +166,7 @@ new AbdmClient(string email, string password, string baseUrl = "...")
 |-------|----------|---------|
 | `email` | Yes | — |
 | `password` | Yes | — |
-| `baseUrl` | No | `https://asia-south1-psychic-city-328609.cloudfunctions.net` |
+| `baseUrl` | No | `https://xxxxxx-xxxxxx-xxxxxx-xxxxxx.cloudfunctions.net` |
 
 All three can be changed at runtime:
 ```csharp

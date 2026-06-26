@@ -19,7 +19,7 @@ namespace NiceHms.Abdm
         public DocumentModule Documents { get; private set; }
         public DoctorModule Doctors { get; private set; }
 
-        public AbdmClient(string email, string password, string baseUrl = "https://asia-south1-psychic-city-328609.cloudfunctions.net")
+        public AbdmClient(string email, string password, string baseUrl = "https://xxxxxx-xxxxxx-xxxxxx-xxxxxx.cloudfunctions.net")
         {
             if (email == null) throw new ArgumentNullException("email");
             if (password == null) throw new ArgumentNullException("password");

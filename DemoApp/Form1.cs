@@ -49,7 +49,7 @@ namespace NiceHms.Abdm.Demo
 
             // Connection row
             var lbl = Label("Email:", 8, y + 4, 45);
-            _txtEmail = TextBox("admin@nicehms.com", 55, y, 180);
+            _txtEmail = TextBox("your-email@xxxxxx.com", 55, y, 180);
             Controls.AddRange(new Control[] { lbl, _txtEmail });
 
             lbl = Label("Password:", 245, y + 4, 60);
@@ -58,7 +58,7 @@ namespace NiceHms.Abdm.Demo
             Controls.AddRange(new Control[] { lbl, _txtPassword });
 
             lbl = Label("Base URL:", 455, y + 4, 55);
-            _txtBaseUrl = TextBox("https://asia-south1-psychic-city-328609.cloudfunctions.net", 510, y, 280);
+            _txtBaseUrl = TextBox("https://xxxxxx-xxxxxx-xxxxxx-xxxxxx.cloudfunctions.net", 510, y, 280);
             Controls.AddRange(new Control[] { lbl, _txtBaseUrl });
 
             _btnConnect = Button("Connect", 800, y, 80);
