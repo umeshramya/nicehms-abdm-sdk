@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>NiceHms.Abdm.Client</AssemblyName>
+    <RootNamespace>NiceHms.Abdm</RootNamespace>
+    <Version>1.0.0</Version>
+    <Description>Nice HMS ABDM Integration SDK — simplified wrapper for ABDM-compliant hospital APIs</Description>
+    <Authors>Nice HMS</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+</Project>
